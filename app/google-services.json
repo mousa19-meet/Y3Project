@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "626494665163",
+    "firebase_url": "https://blahblah-97064-default-rtdb.firebaseio.com",
+    "project_id": "blahblah-97064",
+    "storage_bucket": "blahblah-97064.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626494665163:android:5c1bf971f58526fd9b464e",
+        "android_client_info": {
+          "package_name": "com.example.blah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626494665163-40vmbu4e3bnc3j9setl83r1lv3jms59f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtpzFj7P1ZtmO_8ziB-fibfanguAjSoWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626494665163-40vmbu4e3bnc3j9setl83r1lv3jms59f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".UploadActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload New StatusQuo"
+        android:gravity="center"
+        android:layout_marginBottom="25sp"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:id="@+id/statusQuoName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Name of StatusQuo"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <EditText
+        android:layout_margin="10sp"
+        android:id="@+id/statusQuoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Description of StatusQuo"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="305dp" />
+
+
+    <CheckBox
+        android:id="@+id/statusQuoSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="CheckBox" />
+
+    <Button
+        android:id="@+id/Upload"
+        android:layout_marginTop="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="497dp" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50sp"
+        android:text="cancel"
+        tools:layout_editor_absoluteX="146dp"
+        tools:layout_editor_absoluteY="589dp" />
+
+
+</LinearLayout>
