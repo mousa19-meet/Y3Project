@@ -6,6 +6,11 @@ import android.content.Intent;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
+/*
+    This File allows the User to stay in session after exiting the App.
+    The only way for a user to be out of session is through clicking sign out from main page.
+*/
+
 public class Home extends Application {
     @Override
     public void onCreate(){

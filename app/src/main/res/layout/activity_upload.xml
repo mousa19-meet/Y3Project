@@ -24,7 +24,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Name of StatusQuo"
+        android:hint="Name of StatusQuo"
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="213dp" />
 
@@ -36,7 +36,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:text="Description of StatusQuo"
+        android:hint="Description of StatusQuo"
         tools:layout_editor_absoluteX="108dp"
         tools:layout_editor_absoluteY="305dp" />
 
