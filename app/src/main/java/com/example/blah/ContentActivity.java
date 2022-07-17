@@ -60,8 +60,13 @@ public class ContentActivity extends AppCompatActivity {
         DBR.child(uid).get().addOnCompleteListener(task -> {
             if (task.isSuccessful()) {
                 HashMap<String, String> value = (HashMap<String, String>) task.getResult().getValue();
-                Username = value.get("name");
-                userEmail.setText("logged in : " + Username);
+                if (value != null ){
+                    Username = value.get("name");
+                    userEmail.setText("logged in : " + Username);
+                } else {
+                    Intent intent = new Intent(ContentActivity.this, MainActivity.class);
+                    startActivity(intent);
+                }
             }
         });
 
