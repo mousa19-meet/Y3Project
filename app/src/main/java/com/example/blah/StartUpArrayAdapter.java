@@ -35,8 +35,8 @@ public class StartUpArrayAdapter extends ArrayAdapter<StartUp> {
             TextView nameTextView = convertView.findViewById(R.id.startupName);
             TextView statusquoTextView = convertView.findViewById(R.id.startupStatusQuo);
             TextView ownerTextView = convertView.findViewById(R.id.startupOwner);
-            nameTextView.setText("*" + startup.getName());
-            statusquoTextView.setText("-" + startup.getStatusQuo());
+            nameTextView.setText("* " + startup.getName());
+            statusquoTextView.setText("- " + startup.getStatusQuo());
             ownerTextView.setText("Mentor : " + startup.getOwner());
         }
         return convertView;
