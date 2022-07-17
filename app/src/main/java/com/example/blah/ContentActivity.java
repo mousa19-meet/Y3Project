@@ -20,6 +20,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 
 public class ContentActivity extends AppCompatActivity {
@@ -92,6 +93,7 @@ public class ContentActivity extends AppCompatActivity {
                     startups.add(startup);
                 }
 
+                Collections.reverse(startups);
                 startupsListView = findViewById(R.id.startupListView);
                 arrayAdapter = new StartUpArrayAdapter(ContentActivity.this, R.layout.custom_row, startups);
                 startupsListView.setAdapter(arrayAdapter);
